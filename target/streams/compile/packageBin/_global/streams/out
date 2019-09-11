@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/liudun/githubRep/bigdata/target/scala-2.12/bigdata_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com/soapsnake[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com/soapsnake/spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com/soapsnake/spark/app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/app/SampleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com/soapsnake/spark/app/SampleTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/app/SampleTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.12/classes/com/soapsnake/spark/app/SampleTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
