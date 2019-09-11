@@ -18,4 +18,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/app/SampleTest$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/app/SampleTest$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/app/SampleTest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream/StreamSample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream/StreamSample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream/StreamSample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream/StreamSample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream/StreamSample$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream/StreamSample$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream/StreamSample$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream/StreamSample$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/soapsnake/spark/stream/StreamSample$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/liudun/githubRep/bigdata/target/scala-2.11/classes/com/soapsnake/spark/stream/StreamSample$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
