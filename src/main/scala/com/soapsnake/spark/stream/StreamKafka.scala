@@ -11,7 +11,7 @@ object StreamKafka {
 
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf().setMaster("local[2]").setAppName("kafkaSample")
+    val conf = new SparkConf().setAppName("kafkaSample")
     val ssc = new StreamingContext(conf, Seconds(5));
 
     val kafkaParams = Map[String, Object](
