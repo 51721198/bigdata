@@ -16,8 +16,8 @@ object StreamKafka {
 
     val kafkaParams = Map[String, Object](
       "bootstrap.servers" -> "18.162.177.170:9092,18.162.128.89:9092",   //broker 地址
-      "key.deserializer" -> classOf[StringDeserializer],     //key序列化器
-      "value.deserializer" -> classOf[StringDeserializer],
+//      "key.deserializer" -> classOf[StringDeserializer],     //key序列化器
+//      "value.deserializer" -> classOf[StringDeserializer],
       "group.id" -> "soapsnake_spark",     //consumer group???
       "auto.offset.reset" -> "latest",          //???????
       "enable.auto.commit" -> (false: java.lang.Boolean)
