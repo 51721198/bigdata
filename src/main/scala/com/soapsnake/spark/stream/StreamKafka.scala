@@ -1,5 +1,7 @@
 package com.soapsnake.spark.stream
 
+import java.util.Arrays
+
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
@@ -27,7 +29,11 @@ object StreamKafka {
     val stream = KafkaUtils.createDirectStream[String, String] (
       ssc,
       PreferConsistent,
-      Subscribe[String, String](topics, kafkaParams)
+//      Subscribe[String, String](topics, kafkaParams)
+      ConsumerStrategies.Subscribe[String, String](
+        topics,
+        kafkaParams
+      )
     )
 
     stream.map(record => (record.key, record.value)).print()
