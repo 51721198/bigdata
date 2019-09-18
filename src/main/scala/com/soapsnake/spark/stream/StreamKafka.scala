@@ -23,7 +23,7 @@ object StreamKafka {
       "enable.auto.commit" -> (false: java.lang.Boolean)
     )
 
-    val topics = Array("input")   //topic
+    val topics = Array("binary-in")   //topic
     val stream = KafkaUtils.createDirectStream[String, String] (
       ssc,
       PreferConsistent,
