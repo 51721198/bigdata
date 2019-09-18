@@ -36,6 +36,8 @@ object StreamKafka {
       )
     )
 
+
+    stream.map(record => print("record => " + record))
     stream.map(record => (record.key, record.value)).print()
 
     ssc.start()
