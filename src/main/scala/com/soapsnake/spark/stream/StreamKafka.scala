@@ -32,6 +32,21 @@ object StreamKafka {
 
     stream.map(record => (record.key, record.value)).print()
 
+    ssc.start()
+    println("*** started termination monitor")
+
+    try {
+      ssc.awaitTermination()
+      println("*** streaming terminated")
+    } catch {
+      case e: Exception => {
+        println("*** streaming exception caught in monitor thread")
+      }
+    }
+    // stop Spark
+    ssc.stop()
+
+    println("*** done")
   }
 
 }
