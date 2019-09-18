@@ -17,7 +17,7 @@ object StreamKafka {
     val ssc = new StreamingContext(conf, Seconds(5));
 
     val kafkaParams = Map[String, Object](
-      "bootstrap.servers" -> "18.162.177.170:9093",   //broker 地址
+      "bootstrap.servers" -> "18.162.177.170:9093,18.162.128.89:9093",   //broker 地址
       "key.deserializer" -> classOf[StringDeserializer],     //key序列化器
       "value.deserializer" -> classOf[StringDeserializer],
       "group.id" -> "soapsnake_spark",     //consumer group???
